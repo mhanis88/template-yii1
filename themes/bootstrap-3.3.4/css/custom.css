@@ -1,0 +1,164 @@
+/*
+ * osh on 02/10/2014 : Added custom.css
+ * Custom css in addition to bootstrap css
+ */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 150px;
+}
+
+.attention-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+}
+
+.tabletext-small {
+    font-size: 12px;
+}
+
+.s24x24 {
+    font-size: 24px;
+}
+
+.notify-success {
+    color: #008000;
+    background-color: #80ff80;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+
+.notify-failure {
+    color: #ff0000;
+    background-color: #ff8080;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+
+table .blueheader thead th  {
+    background-color: #0080ff;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    /* padding-top: 20px; */
+    /* background-color: #f5f5f5; */
+}
+
+.footer > .container > .bs-footer {
+    /* background-color: #eee; */
+	background-color: rgba(238, 238, 238, 0.3); /* equivalent to #eee */
+	padding: 5px 0 5px 10px;
+    /* text-align: center; */
+}
+
+.inpanel {
+    margin: 0 0 0 10px;
+    padding: 0 0 0 5px;
+}
+
+time.icon
+{
+    font-size: 1em; /* change icon size */
+    display: block;
+    position: relative;
+    width: 7em;
+    height: 7em;
+    background-color: #fff;
+    border-radius: 0.6em;
+    box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+    overflow: hidden;
+}
+
+time.icon *
+{
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+time.icon strong
+{
+    position: absolute;
+    top: 0;
+    padding: 0.4em 0;
+    color: #fff;
+    background-color: #fd9f1b;
+    border-bottom: 1px dashed #f37302;
+    box-shadow: 0 2px 0 #fd9f1b;
+}
+
+time.icon em
+{
+    position: absolute;
+    bottom: 0.3em;
+    color: #fd9f1b;
+}
+
+time.icon span
+{
+    font-size: 2.8em;
+    letter-spacing: -0.05em;
+    padding-top: 0.8em;
+    color: #2f2f2f;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}

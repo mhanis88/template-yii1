@@ -1,0 +1,65 @@
+custom your themes here >>> http://visigene.com/
+
+----------------------------------
+
+change
+------
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+to
+--
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+--------------------------------------
+
+// show current page of the listing
+// {color} please follow color code for hover & focus event
+
+add
+---
+
+.pager .active > a {
+    background-color: {color}; 
+}
+
+before
+------
+
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: {color};
+}
+
+
+---------------------------------------
+
+change attributes
+------
+.checkbox label {
+  // could be the same or different with below attributes
+  display: inline;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+to
+------
+.checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
